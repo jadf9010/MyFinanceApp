@@ -1,0 +1,2 @@
+# MyFinanceApp
+Swift UI Project
