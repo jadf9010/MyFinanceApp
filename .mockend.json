@@ -14,36 +14,26 @@
           "minLength": 10,
           "maxLength": 100
         }
-      },
-      "tag": {
-        "string": [
-          "one",
-          "two",
-          "three"
-        ]
-      },
-      "isDraft": {
-        "boolean": {}
-      },
-      "createdAt": {
+      },        
+      "date": {
         "dateTime": {
           "min": "2010-01-01T00:00:00Z",
-          "max": "2020-12-31T23:59:59Z"
+          "max": "2022-12-31T23:59:59Z"
         }
       },
       "institution": {
         "string": [
-            "Caixa",
+            "CAIXA",
             "BBVA",
-            "Santander",
-            "Popular"
+            "SANTANDER",
+            "POPULAR"
         ]
       },
       "account": {
         "string": [
             "VISA",
-            "Master Card",
-            "American Express"                
+            "MASTER CARD",
+            "AMERICAN EXPRESS"                
         ]
       },
       "merchant": {
@@ -56,7 +46,37 @@
             "min": 100, 
             "max": 1000000 
         }
-      }
+      },
+      "type": {
+        "string": [
+            "debit",
+            "credit"            
+        ]
+      },
+      "categoryId": {
+        "int": { 
+            "min": 100, 
+            "max": 500 
+        }
+      },
+      "category": {
+        "loremWords": {
+            "minLength": 5,
+            "maxLength": 20
+        }
+      },
+      "isPending": {
+        "boolean": {}
+      },
+      "isTransfer": {
+        "boolean": {}
+      },
+      "isExpense": {
+        "boolean": {}
+      },
+      "isEdited": {
+        "boolean": {}
+      }      
     }
   }
   
