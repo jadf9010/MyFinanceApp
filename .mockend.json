@@ -39,6 +39,24 @@
             "Popular"
         ]
       }
+      "account": {
+        "string": [
+            "VISA",
+            "Master Card",
+            "American Express"                
+        ]
+      },
+      "merchant": {
+        "string": [
+            "STM"            
+        ]
+      },
+      "amount": {
+        "int": { 
+            "min": 100, 
+            "max": 1000000 
+        }
+      }
     }
   }
   
