@@ -11,11 +11,14 @@ import SwiftUI
 struct MyFinanceAppApp: App {
     let persistenceController = PersistenceController.shared
 
+    @StateObject var transactionListVM = TransactionListViewModel()
+    
     var body: some Scene {
         WindowGroup {
             //CustomContentView()
               //  .environment(\.managedObjectContext, persistenceController.container.viewContext)
             ContentView()
+                .environmentObject(transactionListVM)
         }
     }
 }
