@@ -23,7 +23,12 @@
 		3BC3E889289C52BF007057CF /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3E888289C52BF007057CF /* RecentTransactionList.swift */; };
 		3BC3E88B289C5E61007057CF /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3E88A289C5E61007057CF /* TransactionList.swift */; };
 		3BC3E8A5289C6659007057CF /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC3E8A4289C6659007057CF /* Collections */; };
+<<<<<<< HEAD
 		3BC3E8AC289C7A5A007057CF /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC3E8AB289C7A5A007057CF /* Collections */; };
+=======
+		3BC3E8A7289C6659007057CF /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC3E8A6289C6659007057CF /* DequeModule */; };
+		3BC3E8A9289C6659007057CF /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC3E8A8289C6659007057CF /* OrderedCollections */; };
+>>>>>>> 3d08afaa6efb027f665581f464c0e2bdbb8cb6d8
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +56,12 @@
 			files = (
 				3BC3E8A5289C6659007057CF /* Collections in Frameworks */,
 				3B5398D1289878A9004FDDB3 /* SwiftUIFontIcon in Frameworks */,
+<<<<<<< HEAD
 				3BC3E8AC289C7A5A007057CF /* Collections in Frameworks */,
+=======
+				3BC3E8A9289C6659007057CF /* OrderedCollections in Frameworks */,
+				3BC3E8A7289C6659007057CF /* DequeModule in Frameworks */,
+>>>>>>> 3d08afaa6efb027f665581f464c0e2bdbb8cb6d8
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +132,12 @@
 			packageProductDependencies = (
 				3B5398D0289878A9004FDDB3 /* SwiftUIFontIcon */,
 				3BC3E8A4289C6659007057CF /* Collections */,
+<<<<<<< HEAD
 				3BC3E8AB289C7A5A007057CF /* Collections */,
+=======
+				3BC3E8A6289C6659007057CF /* DequeModule */,
+				3BC3E8A8289C6659007057CF /* OrderedCollections */,
+>>>>>>> 3d08afaa6efb027f665581f464c0e2bdbb8cb6d8
 			);
 			productName = MyFinanceApp;
 			productReference = 3B5398AF28986CEC004FDDB3 /* MyFinanceApp.app */;
@@ -425,10 +440,22 @@
 			package = 3BC3E8A3289C6659007057CF /* XCRemoteSwiftPackageReference "swift-collections" */;
 			productName = Collections;
 		};
+<<<<<<< HEAD
 		3BC3E8AB289C7A5A007057CF /* Collections */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3BC3E8A3289C6659007057CF /* XCRemoteSwiftPackageReference "swift-collections" */;
 			productName = Collections;
+=======
+		3BC3E8A6289C6659007057CF /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BC3E8A3289C6659007057CF /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		3BC3E8A8289C6659007057CF /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BC3E8A3289C6659007057CF /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+>>>>>>> 3d08afaa6efb027f665581f464c0e2bdbb8cb6d8
 		};
 /* End XCSwiftPackageProductDependency section */
 
