@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B13B907289D8CFA00CC12DE /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 3B13B906289D8CFA00CC12DE /* SwiftUICharts */; };
 		3B5398B328986CEC004FDDB3 /* MyFinanceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5398B228986CEC004FDDB3 /* MyFinanceAppApp.swift */; };
 		3B5398B528986CEC004FDDB3 /* CustomContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5398B428986CEC004FDDB3 /* CustomContentView.swift */; };
 		3B5398B728986CEF004FDDB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5398B628986CEF004FDDB3 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 				3B5398D1289878A9004FDDB3 /* SwiftUIFontIcon in Frameworks */,
 				3BC3E8A9289C6659007057CF /* OrderedCollections in Frameworks */,
 				3BC3E8A7289C6659007057CF /* DequeModule in Frameworks */,
+				3B13B907289D8CFA00CC12DE /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +128,7 @@
 				3BC3E8A4289C6659007057CF /* Collections */,
 				3BC3E8A6289C6659007057CF /* DequeModule */,
 				3BC3E8A8289C6659007057CF /* OrderedCollections */,
+				3B13B906289D8CFA00CC12DE /* SwiftUICharts */,
 			);
 			productName = MyFinanceApp;
 			productReference = 3B5398AF28986CEC004FDDB3 /* MyFinanceApp.app */;
@@ -158,6 +161,7 @@
 			packageReferences = (
 				3B5398CF289878A9004FDDB3 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
 				3BC3E8A3289C6659007057CF /* XCRemoteSwiftPackageReference "swift-collections" */,
+				3B13B905289D8CFA00CC12DE /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = 3B5398B028986CEC004FDDB3 /* Products */;
 			projectDirPath = "";
@@ -399,6 +403,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3B13B905289D8CFA00CC12DE /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
 		3B5398CF289878A9004FDDB3 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
@@ -418,6 +430,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3B13B906289D8CFA00CC12DE /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B13B905289D8CFA00CC12DE /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
 		3B5398D0289878A9004FDDB3 /* SwiftUIFontIcon */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3B5398CF289878A9004FDDB3 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
